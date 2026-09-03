@@ -1,0 +1,79 @@
+@echo off
+setlocal
+title GM to RX Studio - Install
+cd /d "%~dp0"
+
+echo ==========================================
+echo   GM to RX Studio - Windows instalacija
+echo ==========================================
+echo.
+
+where py >nul 2>nul
+if %errorlevel%==0 (
+    set "PYTHON=py -3"
+) else (
+    where python >nul 2>nul
+    if errorlevel 1 goto :NO_PYTHON
+    set "PYTHON=python"
+)
+
+echo [1/4] Python verzija:
+%PYTHON% --version
+if errorlevel 1 goto :ERROR
+
+echo.
+echo [2/4] Provjera pip-a...
+%PYTHON% -m pip --version >nul 2>nul
+if errorlevel 1 (
+    %PYTHON% -m ensurepip --upgrade
+    if errorlevel 1 goto :ERROR
+)
+
+echo.
+echo [3/4] Instalacija potrebne NumPy biblioteke...
+%PYTHON% -m pip install --user --upgrade numpy
+if errorlevel 1 goto :ERROR
+
+echo.
+echo [4/4] Provjera aplikacije...
+%PYTHON% -c "import numpy; import rxoptimizer.midi; import rxoptimizer.features; print('NumPy', numpy.__version__, '- OK')"
+if errorlevel 1 goto :ERROR
+
+if not exist "data\factory.sqlite3" (
+    echo.
+    echo Baze jos nisu napravljene. Pokrecem puni Factory/Gold import...
+    %PYTHON% app.py import-archive prism-uploads\DNA.zip
+    if errorlevel 1 goto :ERROR
+) else (
+    echo Baze vec postoje - import nije ponovljen.
+)
+
+if not exist "data\performance_dna.sqlite3" (
+    echo.
+    echo Izvedene DNA baze nisu pronadjene. Gradim Rhythm, Performance, Voice i Optimizer DNA...
+    %PYTHON% app.py build-dna
+    if errorlevel 1 goto :ERROR
+)
+
+echo.
+echo ==========================================
+echo   Instalacija je uspjesno zavrsena.
+echo   Pokreni run.bat za otvaranje aplikacije.
+echo ==========================================
+pause
+exit /b 0
+
+:NO_PYTHON
+echo.
+echo GRESKA: Python 3 nije pronadjen.
+echo Instaliraj Python sa https://www.python.org/downloads/
+echo Tokom instalacije ukljuci opciju "Add Python to PATH".
+pause
+exit /b 1
+
+:ERROR
+echo.
+echo GRESKA: Instalacija ili provjera nije uspjela.
+echo Procitaj poruku iznad i pokusaj ponovo.
+pause
+exit /b 1

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-11",
+  "generation_id": "335ad9cb42bd41768993",
+  "mode": "ANALYZE_ONLY",
+  "repair_capability": false,
+  "corpus": {
+    "factory": {"archive_members": 3211, "unique_files": 3187, "duplicates": 24, "import_errors": 0, "tracks": 29724},
+    "balkan_reference": {"archive_members": 182, "unique_files": 181, "duplicates": 1, "import_errors": 0, "tracks": 1883}
+  },
+  "file_validation": {
+    "factory": {"VALID": 2622, "WARNING_NOTE_PAIR": 589, "INVALID": 0},
+    "balkan_reference": {"VALID": 172, "WARNING_NOTE_PAIR": 10, "INVALID": 0}
+  },
+  "track_quality": {
+    "factory": {"NORMAL": 25230, "RARE": 4364, "OUTLIER": 130, "INVALID": 0},
+    "balkan_reference": {"NORMAL": 1230, "RARE": 562, "OUTLIER": 91, "INVALID": 0},
+    "total": 31607,
+    "eligible_for_validated_dna_review": 26403,
+    "review_required": 9158,
+    "source_warning_tracks": 5017
+  },
+  "robust_contexts": {"total": 207, "sufficient": 136, "insufficient": 71},
+  "semantic_sha256": {
+    "factory": "8a40bd91181a8d7d509eda400bca802e9ad69689314014f1bfea30801474ff05",
+    "gold": "5f4865843164cdc2f4d9ccaadee501c7206294c202f68910d1937c31f4b864c5"
+  },
+  "verification": {"sqlite_integrity": "ok", "foreign_key_errors": 0, "unit_tests_passed": 87}
+}

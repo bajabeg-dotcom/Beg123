@@ -1,0 +1,52 @@
+@echo off
+setlocal
+title GM to RX Studio
+cd /d "%~dp0"
+
+where py >nul 2>nul
+if %errorlevel%==0 (
+    set "PYTHON=py -3"
+) else (
+    where python >nul 2>nul
+    if errorlevel 1 goto :NO_PYTHON
+    set "PYTHON=python"
+)
+
+if not exist "app.py" (
+    echo GRESKA: app.py nije pronadjen u ovom folderu.
+    pause
+    exit /b 1
+)
+
+%PYTHON% -c "import numpy" >nul 2>nul
+if errorlevel 1 (
+    echo NumPy nije instaliran. Prvo pokreni install.bat.
+    pause
+    exit /b 1
+)
+
+if not exist "data\factory.sqlite3" (
+    echo Baze nisu pronadjene. Prvo pokreni install.bat.
+    pause
+    exit /b 1
+)
+
+echo Pokrecem GM to RX Studio...
+echo Aplikacija: http://127.0.0.1:8765
+echo Za zaustavljanje pritisni Ctrl+C u ovom prozoru.
+echo.
+
+start "" "http://127.0.0.1:8765"
+%PYTHON% app.py serve
+
+if errorlevel 1 (
+    echo.
+    echo Aplikacija je zavrsila sa greskom.
+    pause
+)
+exit /b %errorlevel%
+
+:NO_PYTHON
+echo GRESKA: Python 3 nije pronadjen. Pokreni install.bat.
+pause
+exit /b 1

@@ -1,0 +1,92 @@
+{
+  "audit_version": 1,
+  "date": "2026-08-11",
+  "runtime_decision": {
+    "mode": "ANALYZE_ONLY",
+    "auto_repair": false,
+    "certification": "NOT_READY"
+  },
+  "current_workspace": {
+    "authoritative_archive": "prism-uploads/DNA.zip",
+    "active_large_sqlite_corpora_present": false,
+    "active_snapshot_id": null,
+    "last_verified_snapshot_id": "335ad9cb42bd41768993",
+    "historical_snapshot_id": "eb20deb55b831d418bd9",
+    "historical_snapshot_active": false,
+    "tests_passed": 91,
+    "tests_failed": 0
+  },
+  "source_boundaries": {
+    "six_song_scope": ["delay_track_identification", "terca_track_identification"],
+    "six_song_allowed_for_rhythm_repair_training": false,
+    "optimizer_output_allowed_for_training": false
+  },
+  "implemented": [
+    "standard_midi_parser_writer",
+    "basic_midi_semantic_validation",
+    "source_sha256_inventory",
+    "program_bank_timeline_segments",
+    "deterministic_feature_models",
+    "evidence_registry",
+    "atomic_derived_database_builders",
+    "optimizer_run_hash_audit"
+  ],
+  "partial": [
+    "read_only_raw_layout",
+    "factory_rhythm_features",
+    "gold_performance_model",
+    "section_cv_meter_hierarchy",
+    "role_classification",
+    "pattern_fingerprints",
+    "musical_intent_protection",
+    "determinism_certification",
+    "rollback"
+  ],
+  "missing": [
+    "validated_corpus_outlier_governance",
+    "stable_event_ids",
+    "multi_scale_rhythm_model",
+    "groove_signature",
+    "robust_calibration_engine",
+    "event_level_anomaly_proof",
+    "candidate_generation_and_ranking",
+    "before_after_simulation",
+    "repair_budget",
+    "rule_registry",
+    "per_event_repair_provenance",
+    "dry_run_preview_ui",
+    "negative_adversarial_certification_corpora",
+    "false_repair_and_missed_repair_kpis",
+    "blind_human_ab",
+    "x10_certification"
+  ],
+  "unsafe_for_x10_repair": [
+    "nearest_sixteenth_grid_as_timing_target",
+    "fixed_0_08_quarter_timing_limit",
+    "fixed_gate_clamps_without_calibration",
+    "deterministic_strumming_jitter_as_repair",
+    "direct_guitar_onset_repair_without_full_decision_gate",
+    "broad_role_transform_without_event_anomaly_proof"
+  ],
+  "phase_b": {
+    "status": "COMPLETED_WITH_REVIEW_QUEUE",
+    "track_quality_total": 31607,
+    "eligible_for_validated_dna_review": 26403,
+    "review_required": 9158
+  },
+  "phase_c": {
+    "status": "PARTIAL_ANALYZE_ONLY",
+    "phrase_candidates": 77315,
+    "multi_bar_instances": 460263,
+    "calibration_profiles": 8174,
+    "robust_variation_profiles": 220
+  },
+  "phase_d_preparation": {
+    "cross_file_consensus_implemented": true,
+    "factory_authority_separate_from_reference": true,
+    "negative_rules_registered": 12,
+    "repair_allowed": false,
+    "full_corpus_materialization_currently_present": false
+  },
+  "next_phase": "ROLE_PROGRAM_CV_TEMPO_JOIN_AND_NEGATIVE_CORPUS"
+}

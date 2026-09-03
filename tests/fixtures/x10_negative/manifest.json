@@ -1,0 +1,1 @@
+{"schema_version":1,"cases":[{"case_id":"synthetic-syncopation","source_class":"SYNTHETIC_GUARD_FIXTURE","expected_action":"PRESERVE","description":"Software-only intentional syncopation guard.","fixture_path":"intentional_syncopation.json","fixture_sha256":"a52237b1b7d31bddf4cba7c2d760cd8553c15d99503f010871feb88822d936da"}]}

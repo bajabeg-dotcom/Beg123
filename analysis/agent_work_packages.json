@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "governance_document": "X10_AGENT_OPERATING_MODEL.md",
+  "roles": {
+    "chatgpt_architect": "plan_priorities_contracts_acceptance",
+    "chatgpt_audit": "gaps_risks_contradictions_dependencies",
+    "codex_lead": "technical_breakdown_file_ownership_integration",
+    "codex_implementer": "code_and_targeted_tests",
+    "codex_qa": "independent_accept_return_block",
+    "human_owner": "goal_material_decisions_pa800_evidence_release"
+  },
+  "workflow": ["HUMAN_GOAL", "ARCHITECT_READY", "AUDIT_REVIEWED", "LEAD_READY", "IMPLEMENTING", "READY_FOR_QA", "ACCEPTED_TECHNICAL", "PENDING_HUMAN", "RELEASED"],
+  "completed_work_packages": [
+    {
+      "wp_id": "WP-X10-011",
+      "title": "Role, Program, CV and Tempo Context Join plus Negative Corpus",
+      "capability": "ANALYZE_ONLY",
+      "status": "PENDING_HUMAN",
+      "qa_verdict": "ACCEPT",
+      "qa_history": ["RETURN", "RETURN", "RETURN", "RETURN", "ACCEPT"],
+      "tests_passed": 143,
+      "evidence": ["WP-X10-011_ARCHITECT.md", "WP-X10-011_ARCHITECT_ADDENDUM.md", "WP-X10-011_AUDIT.md", "WP-X10-011_REAUDIT.md", "WP-X10-011_LEAD_PLAN.md", "WP-X10-011_QA_PASS5.md"]
+    }
+  ],
+  "active_work_package": {
+    "wp_id": "WP-X10-012",
+    "version": 5,
+    "title": "Stable-ID Protection Adapters and Multimodal Gate",
+    "capability": "ANALYZE_ONLY",
+    "status": "QA_RETURNED_WP012A_2",
+    "architect": "ChatGPT Architect",
+    "audit": "ChatGPT Audit",
+    "lead": "Codex Lead",
+    "implementer": "Codex Implementer",
+    "qa": "Codex QA",
+    "human_owner": "User",
+    "dependencies": ["WP-X10-011_QA_ACCEPT", "stable_event_note_identity", "exact_context", "rhythm_validation", "factory_consensus", "evidence_registry"],
+    "source_boundaries": {
+      "factory_normal": "reference_and_modality_authority",
+      "factory_rare_outlier": "preservation_or_review_only",
+      "gold_reference": "support_or_contradiction_after_factory_model",
+      "six_song_set": "delay_and_existing_terca_identification_only",
+      "optimizer_repaired_output": "never_evidence"
+    },
+    "architect_evidence": "WP-X10-012_ARCHITECT.md",
+    "architect_addendum": "WP-X10-012_ARCHITECT_ADDENDUM.md",
+    "mathematical_addendum": "WP-X10-012_MATH_ADDENDUM.md",
+    "implementation_lock": "WP-X10-012_IMPLEMENTATION_LOCK.md",
+    "enum_appendix": "WP-X10-012_ENUM_APPENDIX.md",
+    "audit_evidence": "WP-X10-012_AUDIT.md",
+    "reaudit_evidence": "WP-X10-012_REAUDIT.md",
+    "final_reaudit_evidence": "WP-X10-012_REAUDIT_2.md",
+    "final_audit_evidence": "WP-X10-012_FINAL_AUDIT.md",
+    "audit_blockers": 9,
+    "audit_blockers_open": 0,
+    "lead_evidence": "WP-X10-012_LEAD_PLAN.md",
+    "qa_evidence": "WP-X10-012A_QA_PASS2.md",
+    "qa_verdict": "RETURN",
+    "qa_history": ["RETURN", "RETURN"],
+    "qa_findings_open": 5,
+    "human_decisions_required": ["Pa800 evidence remains Human Owner authority", "proposal and repair capability remain disabled", "release remains Human Owner decision"]
+  }
+}
