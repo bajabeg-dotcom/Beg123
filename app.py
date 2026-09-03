@@ -858,7 +858,8 @@ def main() -> None:
         raise SystemExit("RX Noise probe zahtijeva MIDI upload kroz GUI/API; šest Delay/Terca pjesama je zabranjeno koristiti")
     if args.command == "build-articulation-probes":
         print(json.dumps(create_single_articulation_probes(),ensure_ascii=False,indent=2));return
-    host = os.environ.get("HOST", "127.0.0.1")
+    # Bind externally by default so the app works in containers and hosted previews.
+    host = os.environ.get("HOST", "0.0.0.0")
     port = int(os.environ.get("PORT", "8765"))
     print(f"GM to RX Optimizer: http://{host}:{port}")
     ThreadingHTTPServer((host, port), Handler).serve_forever()
