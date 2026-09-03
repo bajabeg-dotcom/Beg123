@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-11",
+  "generation_id": "335ad9cb42bd41768993",
+  "mode": "ANALYZE_ONLY",
+  "repair_capability": false,
+  "eligible_tracks": {"factory": 24705, "balkan_reference": 1698},
+  "source_files_seen": 3368,
+  "files_skipped": {"factory": 580, "balkan_reference": 9},
+  "phrase_candidates": 77315,
+  "multi_bar_instances": 460263,
+  "repeated_multi_bar_instances": 124488,
+  "calibration_profiles": {
+    "total": 8174,
+    "exact_repeat_reference": 7954,
+    "robust_variation_profile": 220
+  },
+  "minimum_repeated_bars": 3,
+  "semantic_sha256": {
+    "factory": "8a40bd91181a8d7d509eda400bca802e9ad69689314014f1bfea30801474ff05",
+    "gold": "5f4865843164cdc2f4d9ccaadee501c7206294c202f68910d1937c31f4b864c5"
+  }
+}

@@ -1,0 +1,1117 @@
+{
+  "policy": "factory_gold_only_single_trigger",
+  "files": [
+    {
+      "probe_file_id": 1,
+      "output": "Clean_Guitar_RX1__Clean_Slap_Slide__619ba36be5.mid",
+      "profile": "Clean Guitar RX1",
+      "articulation": "Clean Slap/Slide",
+      "address": [
+        121,
+        14,
+        28
+      ],
+      "trigger": {
+        "note": 52,
+        "velocity": 99,
+        "duration_quarters": 1.0625
+      },
+      "context": {
+        "previous": {
+          "note": 50,
+          "velocity": 76,
+          "duration_quarters": 1.0
+        },
+        "next": {
+          "note": 43,
+          "velocity": 72,
+          "duration_quarters": 0.22395833333333334
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country Boogie/Country Boogie_End1.mid",
+        "sha256": "1ef6622a6336a117c04cb18751944d0d37351520a32b635811f9b17937761438",
+        "track": 5,
+        "channel": 12,
+        "tick": 0
+      },
+      "occurrence_count": 4946,
+      "file_count": 51,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 2,
+      "output": "Clean_Guitar_RX1__Clean_Dead_Mute__d35b121607.mid",
+      "profile": "Clean Guitar RX1",
+      "articulation": "Clean Dead/Mute",
+      "address": [
+        121,
+        14,
+        28
+      ],
+      "trigger": {
+        "note": 60,
+        "velocity": 52,
+        "duration_quarters": 0.041666666666666664
+      },
+      "context": {
+        "previous": {
+          "note": 58,
+          "velocity": 67,
+          "duration_quarters": 0.265625
+        },
+        "next": {
+          "note": 63,
+          "velocity": 61,
+          "duration_quarters": 0.2604166666666667
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Elektro Pop/Elektro Pop_End1.mid",
+        "sha256": "d4a33b36e24a6b9c405f0aefcabb83bd1a5f14a6196ba3eb80f5de0088818d5b",
+        "track": 6,
+        "channel": 13,
+        "tick": 332
+      },
+      "occurrence_count": 4352,
+      "file_count": 115,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 3,
+      "output": "Clean_Guitar_RX1__Clean_Harm_Ghost__defa99a6c2.mid",
+      "profile": "Clean Guitar RX1",
+      "articulation": "Clean Harm/Ghost",
+      "address": [
+        121,
+        14,
+        28
+      ],
+      "trigger": {
+        "note": 0,
+        "velocity": 10,
+        "duration_quarters": 0.25
+      },
+      "context": {
+        "previous": {
+          "note": 45,
+          "velocity": 67,
+          "duration_quarters": 0.005208333333333333
+        },
+        "next": {
+          "note": 64,
+          "velocity": 67,
+          "duration_quarters": 0.041666666666666664
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Funky Sisters/Funky Sisters_End1.mid",
+        "sha256": "763760ab502b87d6f8b53ea27a141c9754842f059b1f8caa31585b0559dd345c",
+        "track": 6,
+        "channel": 13,
+        "tick": 0
+      },
+      "occurrence_count": 241,
+      "file_count": 32,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 4,
+      "output": "Clean_Guitar_RX1__Clean_Noise__a33ce9471d.mid",
+      "profile": "Clean Guitar RX1",
+      "articulation": "Clean Noise",
+      "address": [
+        121,
+        14,
+        28
+      ],
+      "trigger": {
+        "note": 122,
+        "velocity": 50,
+        "duration_quarters": 0.3802083333333333
+      },
+      "context": {
+        "previous": {
+          "note": 72,
+          "velocity": 58,
+          "duration_quarters": 0.19270833333333334
+        },
+        "next": {
+          "note": 58,
+          "velocity": 67,
+          "duration_quarters": 0.265625
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Elektro Pop/Elektro Pop_End1.mid",
+        "sha256": "d4a33b36e24a6b9c405f0aefcabb83bd1a5f14a6196ba3eb80f5de0088818d5b",
+        "track": 6,
+        "channel": 13,
+        "tick": 215
+      },
+      "occurrence_count": 3084,
+      "file_count": 89,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 5,
+      "output": "Clean_Guitar_RX2__Clean_Slap_Slide__f37d9f0df4.mid",
+      "profile": "Clean Guitar RX2",
+      "articulation": "Clean Slap/Slide",
+      "address": [
+        121,
+        15,
+        28
+      ],
+      "trigger": {
+        "note": 60,
+        "velocity": 94,
+        "duration_quarters": 0.4947916666666667
+      },
+      "context": {
+        "previous": {
+          "note": 55,
+          "velocity": 90,
+          "duration_quarters": 0.421875
+        },
+        "next": {
+          "note": 64,
+          "velocity": 90,
+          "duration_quarters": 0.515625
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Schlager 2/Schlager 2_End1.mid",
+        "sha256": "5ce5560ec40d1e86f3a2c3730049092ebb1ca9defc9c9a879995fee141d4f925",
+        "track": 4,
+        "channel": 11,
+        "tick": 478
+      },
+      "occurrence_count": 431,
+      "file_count": 15,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 6,
+      "output": "Clean_Guitar_RX2__Clean_Dead_Mute__85ecc03ec8.mid",
+      "profile": "Clean Guitar RX2",
+      "articulation": "Clean Dead/Mute",
+      "address": [
+        121,
+        15,
+        28
+      ],
+      "trigger": {
+        "note": 67,
+        "velocity": 49,
+        "duration_quarters": 264.5052083333333
+      },
+      "context": {
+        "previous": {
+          "note": 67,
+          "velocity": 88,
+          "duration_quarters": 264.328125
+        },
+        "next": {
+          "note": 67,
+          "velocity": 86,
+          "duration_quarters": 301.90625
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Schlager 3/Schlager 3_Var1.mid",
+        "sha256": "fa91eeab0393ac6c4641c183dfd74fd801cb2e2d22a13a37621d0a39982df813",
+        "track": 4,
+        "channel": 11,
+        "tick": 4163
+      },
+      "occurrence_count": 150,
+      "file_count": 7,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 7,
+      "output": "Clean_Guitar_RX2__Clean_Noise__e6ec25258c.mid",
+      "profile": "Clean Guitar RX2",
+      "articulation": "Clean Noise",
+      "address": [
+        121,
+        15,
+        28
+      ],
+      "trigger": {
+        "note": 110,
+        "velocity": 32,
+        "duration_quarters": 41.0
+      },
+      "context": {
+        "previous": {
+          "note": 67,
+          "velocity": 86,
+          "duration_quarters": 301.90625
+        },
+        "next": null
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Schlager 3/Schlager 3_Var1.mid",
+        "sha256": "fa91eeab0393ac6c4641c183dfd74fd801cb2e2d22a13a37621d0a39982df813",
+        "track": 4,
+        "channel": 11,
+        "tick": 4506
+      },
+      "occurrence_count": 3,
+      "file_count": 1,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 8,
+      "output": "Clean_Guitar_RX3__Clean_Slap_Slide__96dbe3f9ea.mid",
+      "profile": "Clean Guitar RX3",
+      "articulation": "Clean Slap/Slide",
+      "address": [
+        121,
+        16,
+        28
+      ],
+      "trigger": {
+        "note": 64,
+        "velocity": 127,
+        "duration_quarters": 0.09375
+      },
+      "context": {
+        "previous": {
+          "note": 55,
+          "velocity": 74,
+          "duration_quarters": 2.4739583333333335
+        },
+        "next": {
+          "note": 67,
+          "velocity": 84,
+          "duration_quarters": 0.07291666666666667
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country Strum/Country Strum_End1.mid",
+        "sha256": "b913baabc43d4c700d47f207b329ba93fc1bd434564ec93e745ab0747f55930c",
+        "track": 6,
+        "channel": 14,
+        "tick": 1902
+      },
+      "occurrence_count": 82,
+      "file_count": 14,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 9,
+      "output": "Clean_Guitar_RX3__Clean_Dead_Mute__347db76694.mid",
+      "profile": "Clean Guitar RX3",
+      "articulation": "Clean Dead/Mute",
+      "address": [
+        121,
+        16,
+        28
+      ],
+      "trigger": {
+        "note": 48,
+        "velocity": 48,
+        "duration_quarters": 31.3125
+      },
+      "context": {
+        "previous": {
+          "note": 60,
+          "velocity": 87,
+          "duration_quarters": 33.270833333333336
+        },
+        "next": {
+          "note": 53,
+          "velocity": 72,
+          "duration_quarters": 32.328125
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country QuikStep/Country QuikStep_Var1.mid",
+        "sha256": "5d566adfcb6b8f6f782d151b5f37d5385dcb082c4844e6ed06508e7ed6225fd7",
+        "track": 7,
+        "channel": 14,
+        "tick": 186972
+      },
+      "occurrence_count": 673,
+      "file_count": 20,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 10,
+      "output": "Clean_Guitar_RX3__Clean_Harm_Ghost__d324f21dfc.mid",
+      "profile": "Clean Guitar RX3",
+      "articulation": "Clean Harm/Ghost",
+      "address": [
+        121,
+        16,
+        28
+      ],
+      "trigger": {
+        "note": 58,
+        "velocity": 5,
+        "duration_quarters": 0.005208333333333333
+      },
+      "context": {
+        "previous": {
+          "note": 58,
+          "velocity": 82,
+          "duration_quarters": 0.005208333333333333
+        },
+        "next": null
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Funky Ballad/Funky Ballad_End1.mid",
+        "sha256": "7672db9cf99ad5e45de7a2cd00647681f60f84e967e4115ee0e46491738b284a",
+        "track": 5,
+        "channel": 12,
+        "tick": 48
+      },
+      "occurrence_count": 176,
+      "file_count": 12,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 11,
+      "output": "Clean_Guitar_RX3__Clean_Noise__b474ffd8b6.mid",
+      "profile": "Clean Guitar RX3",
+      "articulation": "Clean Noise",
+      "address": [
+        121,
+        16,
+        28
+      ],
+      "trigger": {
+        "note": 104,
+        "velocity": 68,
+        "duration_quarters": 0.15625
+      },
+      "context": {
+        "previous": {
+          "note": 60,
+          "velocity": 89,
+          "duration_quarters": 2.1666666666666665
+        },
+        "next": {
+          "note": 64,
+          "velocity": 86,
+          "duration_quarters": 2.0885416666666665
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Funky Ballad/Funky Ballad_End3.mid",
+        "sha256": "3bffee72c671c2f3f026d43d02f0875cd1110bee0734daa4b0aa0374da3e4481",
+        "track": 5,
+        "channel": 12,
+        "tick": 758
+      },
+      "occurrence_count": 721,
+      "file_count": 16,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 12,
+      "output": "Clean_Guitar_RX4__Clean_Slap_Slide__5d624ebb0a.mid",
+      "profile": "Clean Guitar RX4",
+      "articulation": "Clean Slap/Slide",
+      "address": [
+        121,
+        17,
+        28
+      ],
+      "trigger": {
+        "note": 79,
+        "velocity": 94,
+        "duration_quarters": 3.9895833333333335
+      },
+      "context": {
+        "previous": {
+          "note": 75,
+          "velocity": 92,
+          "duration_quarters": 0.08333333333333333
+        },
+        "next": {
+          "note": 84,
+          "velocity": 90,
+          "duration_quarters": 3.9895833333333335
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Easy Beat 1/Easy Beat 1_Var2.mid",
+        "sha256": "a846ff3746a74af2e4274a19b18cb26d3e5b1d9b73fb304dc9e6c4b7bb7c2393",
+        "track": 15,
+        "channel": 14,
+        "tick": 9984
+      },
+      "occurrence_count": 2065,
+      "file_count": 18,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 13,
+      "output": "Clean_Guitar_RX4__Clean_Dead_Mute__313ad9b286.mid",
+      "profile": "Clean Guitar RX4",
+      "articulation": "Clean Dead/Mute",
+      "address": [
+        121,
+        17,
+        28
+      ],
+      "trigger": {
+        "note": 60,
+        "velocity": 37,
+        "duration_quarters": 0.25
+      },
+      "context": {
+        "previous": {
+          "note": 58,
+          "velocity": 63,
+          "duration_quarters": 0.4947916666666667
+        },
+        "next": {
+          "note": 63,
+          "velocity": 63,
+          "duration_quarters": 0.2604166666666667
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Dance Fever/Dance Fever_End1.mid",
+        "sha256": "4664197f3e5a1729182657df465502eb8de25a0fcb3d71eb972926e67f8f6618",
+        "track": 7,
+        "channel": 14,
+        "tick": 1060
+      },
+      "occurrence_count": 1690,
+      "file_count": 30,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 14,
+      "output": "Clean_Guitar_RX4__Clean_Harm_Ghost__fa7f57682c.mid",
+      "profile": "Clean Guitar RX4",
+      "articulation": "Clean Harm/Ghost",
+      "address": [
+        121,
+        17,
+        28
+      ],
+      "trigger": {
+        "note": 63,
+        "velocity": 9,
+        "duration_quarters": 0.005208333333333333
+      },
+      "context": {
+        "previous": null,
+        "next": {
+          "note": 67,
+          "velocity": 60,
+          "duration_quarters": 0.3541666666666667
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Dance Fever/Dance Fever_End1.mid",
+        "sha256": "4664197f3e5a1729182657df465502eb8de25a0fcb3d71eb972926e67f8f6618",
+        "track": 7,
+        "channel": 14,
+        "tick": 2835
+      },
+      "occurrence_count": 326,
+      "file_count": 21,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 15,
+      "output": "Clean_Guitar_RX4__Clean_Noise__2bc14ad0e8.mid",
+      "profile": "Clean Guitar RX4",
+      "articulation": "Clean Noise",
+      "address": [
+        121,
+        17,
+        28
+      ],
+      "trigger": {
+        "note": 124,
+        "velocity": 50,
+        "duration_quarters": 0.2604166666666667
+      },
+      "context": {
+        "previous": {
+          "note": 64,
+          "velocity": 72,
+          "duration_quarters": 0.484375
+        },
+        "next": {
+          "note": 58,
+          "velocity": 77,
+          "duration_quarters": 0.609375
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Dance Fever/Dance Fever_Break.mid",
+        "sha256": "9bca679fc3f72e41dc6c860c6bc59a9548e5a8b76daf72e937b745de5fd117d6",
+        "track": 4,
+        "channel": 13,
+        "tick": 94
+      },
+      "occurrence_count": 1576,
+      "file_count": 26,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 16,
+      "output": "Finger_Bass_RX__Harm__40df389686.mid",
+      "profile": "Finger Bass RX",
+      "articulation": "Harm",
+      "address": [
+        121,
+        13,
+        33
+      ],
+      "trigger": {
+        "note": 43,
+        "velocity": 116,
+        "duration_quarters": 0.3229166666666667
+      },
+      "context": {
+        "previous": {
+          "note": 40,
+          "velocity": 110,
+          "duration_quarters": 0.484375
+        },
+        "next": {
+          "note": 36,
+          "velocity": 91,
+          "duration_quarters": 0.328125
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Gospel Shuffle/Gospel Shuffle_Var1.mid",
+        "sha256": "a7ef14df80999460db636e1a2ae274f19b42f4ed864a80fe68aff781b528eab8",
+        "track": 3,
+        "channel": 8,
+        "tick": 3010
+      },
+      "occurrence_count": 10,
+      "file_count": 3,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 17,
+      "output": "Finger_Bass_RX__Stop__be1670b5da.mid",
+      "profile": "Finger Bass RX",
+      "articulation": "Stop",
+      "address": [
+        121,
+        13,
+        33
+      ],
+      "trigger": {
+        "note": 31,
+        "velocity": 50,
+        "duration_quarters": 257.3020833333333
+      },
+      "context": {
+        "previous": {
+          "note": 36,
+          "velocity": 95,
+          "duration_quarters": 253.30208333333334
+        },
+        "next": {
+          "note": 40,
+          "velocity": 90,
+          "duration_quarters": 258.5520833333333
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country QuikStep/Country QuikStep_Var1.mid",
+        "sha256": "5d566adfcb6b8f6f782d151b5f37d5385dcb082c4844e6ed06508e7ed6225fd7",
+        "track": 3,
+        "channel": 8,
+        "tick": 5376
+      },
+      "occurrence_count": 98,
+      "file_count": 20,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 18,
+      "output": "Finger_Bass_RX__Gliss__b9c033140c.mid",
+      "profile": "Finger Bass RX",
+      "articulation": "Gliss",
+      "address": [
+        121,
+        13,
+        33
+      ],
+      "trigger": {
+        "note": 67,
+        "velocity": 20,
+        "duration_quarters": 3.0
+      },
+      "context": {
+        "previous": null,
+        "next": {
+          "note": 43,
+          "velocity": 108,
+          "duration_quarters": 0.015625
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Slide Blues/Slide Blues_Intro1.mid",
+        "sha256": "1ed552037aa8c3095bc0a0fe28bdca93fff93238ec26b8e3753acc8329e2a908",
+        "track": 2,
+        "channel": 8,
+        "tick": 0
+      },
+      "occurrence_count": 155,
+      "file_count": 10,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 19,
+      "output": "Finger_Bass_RX__Noise__cd66e4f016.mid",
+      "profile": "Finger Bass RX",
+      "articulation": "Noise",
+      "address": [
+        121,
+        13,
+        33
+      ],
+      "trigger": {
+        "note": 110,
+        "velocity": 32,
+        "duration_quarters": 310.3229166666667
+      },
+      "context": {
+        "previous": {
+          "note": 36,
+          "velocity": 97,
+          "duration_quarters": 256.6302083333333
+        },
+        "next": {
+          "note": 36,
+          "velocity": 94,
+          "duration_quarters": 16.0
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country QuikStep/Country QuikStep_Var1.mid",
+        "sha256": "5d566adfcb6b8f6f782d151b5f37d5385dcb082c4844e6ed06508e7ed6225fd7",
+        "track": 19,
+        "channel": 8,
+        "tick": 58390
+      },
+      "occurrence_count": 874,
+      "file_count": 49,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 20,
+      "output": "Picked_Bass_RX__Harm__6c9d0c4a58.mid",
+      "profile": "Picked Bass RX",
+      "articulation": "Harm",
+      "address": [
+        121,
+        10,
+        34
+      ],
+      "trigger": {
+        "note": 36,
+        "velocity": 127,
+        "duration_quarters": 0.13020833333333334
+      },
+      "context": {
+        "previous": {
+          "note": 36,
+          "velocity": 104,
+          "duration_quarters": 0.13020833333333334
+        },
+        "next": {
+          "note": 36,
+          "velocity": 81,
+          "duration_quarters": 0.13020833333333334
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Unplugged Gtr 2/Unplugged Gtr 2_Var3.mid",
+        "sha256": "a7bd2ae942020fd6016e30b99ca58d2c4bed79f9557bfebc8169b323b331add0",
+        "track": 3,
+        "channel": 8,
+        "tick": 1271
+      },
+      "occurrence_count": 1,
+      "file_count": 1,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 21,
+      "output": "Picked_Bass_RX__Stop__d5f6b5569c.mid",
+      "profile": "Picked Bass RX",
+      "articulation": "Stop",
+      "address": [
+        121,
+        10,
+        34
+      ],
+      "trigger": {
+        "note": 36,
+        "velocity": 38,
+        "duration_quarters": 0.4427083333333333
+      },
+      "context": {
+        "previous": {
+          "note": 36,
+          "velocity": 76,
+          "duration_quarters": 0.34375
+        },
+        "next": {
+          "note": 42,
+          "velocity": 60,
+          "duration_quarters": 1.0
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Barry Dance/Barry Dance_End1.mid",
+        "sha256": "1eb2a0724e874ba73961a39f225993219be7d48775f7d5b86b72852f94857c16",
+        "track": 3,
+        "channel": 8,
+        "tick": 251
+      },
+      "occurrence_count": 119,
+      "file_count": 11,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 22,
+      "output": "Picked_Bass_RX__Gliss__ef08047363.mid",
+      "profile": "Picked Bass RX",
+      "articulation": "Gliss",
+      "address": [
+        121,
+        10,
+        34
+      ],
+      "trigger": {
+        "note": 31,
+        "velocity": 22,
+        "duration_quarters": 0.005208333333333333
+      },
+      "context": {
+        "previous": {
+          "note": 31,
+          "velocity": 104,
+          "duration_quarters": 0.13020833333333334
+        },
+        "next": {
+          "note": 36,
+          "velocity": 103,
+          "duration_quarters": 0.005208333333333333
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Unplugged Gtr 2/Unplugged Gtr 2_End1.mid",
+        "sha256": "cf4caa784e21582b961d4df7b7a69030a3e0a771701d5afee2f7fbdcaf8e9d6a",
+        "track": 3,
+        "channel": 8,
+        "tick": 1391
+      },
+      "occurrence_count": 5,
+      "file_count": 4,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 23,
+      "output": "Picked_Bass_RX__Noise__6f6735df82.mid",
+      "profile": "Picked Bass RX",
+      "articulation": "Noise",
+      "address": [
+        121,
+        10,
+        34
+      ],
+      "trigger": {
+        "note": 97,
+        "velocity": 90,
+        "duration_quarters": 0.026041666666666668
+      },
+      "context": {
+        "previous": {
+          "note": 31,
+          "velocity": 92,
+          "duration_quarters": 0.020833333333333332
+        },
+        "next": {
+          "note": 29,
+          "velocity": 87,
+          "duration_quarters": 0.036458333333333336
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Barry Dance/Barry Dance_End1.mid",
+        "sha256": "1eb2a0724e874ba73961a39f225993219be7d48775f7d5b86b72852f94857c16",
+        "track": 10,
+        "channel": 8,
+        "tick": 5371
+      },
+      "occurrence_count": 82,
+      "file_count": 16,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 24,
+      "output": "Pop_Std._Kit_RX__B1_C2__f172a6fc8d.mid",
+      "profile": "Pop Std. Kit RX",
+      "articulation": "B1/C2",
+      "address": [
+        120,
+        0,
+        4
+      ],
+      "trigger": {
+        "note": 36,
+        "velocity": 112,
+        "duration_quarters": 0.005208333333333333
+      },
+      "context": {
+        "previous": null,
+        "next": null
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country Beat 2/Country Beat 2_Break.mid",
+        "sha256": "461b15d30db914c8dc65418ec1b95f1848f39ca1fe4f4138dee36a07aae23695",
+        "track": 1,
+        "channel": 9,
+        "tick": 0
+      },
+      "occurrence_count": 10306,
+      "file_count": 165,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 25,
+      "output": "Pop_Std._Kit_RX__D2_E2_layers__8007c3e2b1.mid",
+      "profile": "Pop Std. Kit RX",
+      "articulation": "D2/E2 layers",
+      "address": [
+        120,
+        0,
+        4
+      ],
+      "trigger": {
+        "note": 40,
+        "velocity": 82,
+        "duration_quarters": 0.4895833333333333
+      },
+      "context": {
+        "previous": null,
+        "next": null
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country Beat 2/Country Beat 2_Break.mid",
+        "sha256": "461b15d30db914c8dc65418ec1b95f1848f39ca1fe4f4138dee36a07aae23695",
+        "track": 1,
+        "channel": 9,
+        "tick": 386
+      },
+      "occurrence_count": 10284,
+      "file_count": 143,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 26,
+      "output": "Pop_Std._Kit_RX__F_2_layers__93634c2ecd.mid",
+      "profile": "Pop Std. Kit RX",
+      "articulation": "F#2 layers",
+      "address": [
+        120,
+        0,
+        4
+      ],
+      "trigger": {
+        "note": 42,
+        "velocity": 84,
+        "duration_quarters": 1.9895833333333333
+      },
+      "context": {
+        "previous": null,
+        "next": null
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country Beat 2/Country Beat 2_Break.mid",
+        "sha256": "461b15d30db914c8dc65418ec1b95f1848f39ca1fe4f4138dee36a07aae23695",
+        "track": 1,
+        "channel": 9,
+        "tick": 2
+      },
+      "occurrence_count": 16284,
+      "file_count": 94,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 27,
+      "output": "Pop_Std._Kit_RX__Single_layer__ccc5c093eb.mid",
+      "profile": "Pop Std. Kit RX",
+      "articulation": "Single layer",
+      "address": [
+        120,
+        0,
+        4
+      ],
+      "trigger": {
+        "note": 42,
+        "velocity": 84,
+        "duration_quarters": 1.9895833333333333
+      },
+      "context": {
+        "previous": null,
+        "next": null
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country Beat 2/Country Beat 2_Break.mid",
+        "sha256": "461b15d30db914c8dc65418ec1b95f1848f39ca1fe4f4138dee36a07aae23695",
+        "track": 1,
+        "channel": 9,
+        "tick": 2
+      },
+      "occurrence_count": 25208,
+      "file_count": 159,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 28,
+      "output": "Pop_Std._Kit_RX__G_2_A_2__ff2e11102f.mid",
+      "profile": "Pop Std. Kit RX",
+      "articulation": "G#2/A#2",
+      "address": [
+        120,
+        0,
+        4
+      ],
+      "trigger": {
+        "note": 46,
+        "velocity": 44,
+        "duration_quarters": 0.4895833333333333
+      },
+      "context": {
+        "previous": null,
+        "next": null
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Country Beat 2/Country Beat 2_End1.mid",
+        "sha256": "30aad5301756e3b9f9d3a16d28eca8427ef8ef3a656ac7f79e3922ead5c94624",
+        "track": 1,
+        "channel": 9,
+        "tick": 2
+      },
+      "occurrence_count": 7059,
+      "file_count": 125,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 29,
+      "output": "SlapFing_Bass_RX__Slap_Harmonic__3b6e4db6d2.mid",
+      "profile": "SlapFing Bass RX",
+      "articulation": "Slap/Harmonic",
+      "address": [
+        121,
+        4,
+        36
+      ],
+      "trigger": {
+        "note": 39,
+        "velocity": 120,
+        "duration_quarters": 0.21354166666666666
+      },
+      "context": {
+        "previous": {
+          "note": 31,
+          "velocity": 84,
+          "duration_quarters": 0.14583333333333334
+        },
+        "next": {
+          "note": 41,
+          "velocity": 76,
+          "duration_quarters": 0.005208333333333333
+        }
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Al Funk/Al Funk_End1.mid",
+        "sha256": "323f885af76e5b1e82dc4a4fb0b4fb4a025f4a85750bde408ee8f25b06b55989",
+        "track": 3,
+        "channel": 8,
+        "tick": 535
+      },
+      "occurrence_count": 102,
+      "file_count": 25,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    },
+    {
+      "probe_file_id": 30,
+      "output": "SlapPick_Bass_RX__Slap_Harmonic__c910e14413.mid",
+      "profile": "SlapPick Bass RX",
+      "articulation": "Slap/Harmonic",
+      "address": [
+        121,
+        5,
+        36
+      ],
+      "trigger": {
+        "note": 36,
+        "velocity": 115,
+        "duration_quarters": 0.7708333333333334
+      },
+      "context": {
+        "previous": {
+          "note": 48,
+          "velocity": 108,
+          "duration_quarters": 0.22916666666666666
+        },
+        "next": null
+      },
+      "source": {
+        "source_class": "factory_raw",
+        "member": "Workspace_Styles/Philly Disco/Philly Disco_Intro2.mid",
+        "sha256": "6744a42e7bb8e1d130e1b1f4152776e9bf1f05e72c9f8eaba918f0ff4082de22",
+        "track": 3,
+        "channel": 8,
+        "tick": 956
+      },
+      "occurrence_count": 120,
+      "file_count": 8,
+      "evidence_status": "OBSERVED_UNVERIFIED_TRIGGER"
+    }
+  ],
+  "candidates": 39,
+  "files_created": 30
+}

@@ -1,0 +1,99 @@
+{
+  "checkpoint_version": 2,
+  "created_at_utc": "2026-08-11T19:18:00Z",
+  "source_policy": {
+    "six_song_scope": ["delay_track_identification", "terca_track_identification"],
+    "forbidden": ["rx_noise", "trill", "ornament", "powerchord", "sound_selection", "headroom", "guitar_repair", "instrument_dna"],
+    "content_hash_guard": true
+  },
+  "song_layer_evidence": {
+    "delay_relationships": 11,
+    "terca_relationships": 2,
+    "trill_layer_behaviors": 0,
+    "terca_generation": false,
+    "delay_generation_from_six_songs": false
+  },
+  "rx_noise_probes": {
+    "active_files": 0,
+    "results": 0,
+    "requires_separate_uploaded_midi": true
+  },
+  "single_articulation_probes": {
+    "database": "data/articulation_probe.sqlite3",
+    "archive": "hardware-tests/SINGLE_ARTICULATION_PROBES_PA800.zip",
+    "archive_sha256": "761ad97bba82c96e6d56cdbd33e43808905a45ebc534b0dad520a4b7074f2cbd",
+    "candidates": 39,
+    "with_factory_gold_evidence": 30,
+    "files": 30,
+    "special_triggers_per_file": 1,
+    "six_song_usage": false,
+    "result_storage": "hardware-tests/single-articulation-probes/articulation-results.json",
+    "pending_hardware": 30,
+    "promotion_queue": "hardware-tests/single-articulation-probes/evidence-promotion-queue.json",
+    "automatic_runtime_promotion": false
+  },
+  "generated_outputs_from_six_songs": 0,
+  "hardware_cases_from_six_songs": 0,
+  "agent_governance": {
+    "document": "X10_AGENT_OPERATING_MODEL.md",
+    "work_package_registry": "analysis/agent_work_packages.json",
+    "roles": ["ChatGPT Architect", "ChatGPT Audit", "Codex Lead", "Codex Implementer", "Codex QA", "Human Owner"],
+    "qa_verdicts": ["ACCEPT", "RETURN", "BLOCK"],
+    "active_wp": "WP-X10-011",
+    "active_wp_status": "PENDING_HUMAN",
+    "human_release_authority": true
+  },
+  "x10_rhythm_repair": {
+    "audit_completed": true,
+    "implementation_started": true,
+    "runtime_mode": "ANALYZE_ONLY",
+    "auto_repair": false,
+    "certification": "NOT_READY",
+    "tests_passed_at_audit": 79,
+    "current_tests_passed": 143,
+    "active_large_corpus_databases_present": false,
+    "active_generation_id": null,
+    "last_verified_generation_id": "335ad9cb42bd41768993",
+    "phase_b_data_quality_completed": true,
+    "rhythm_validation_database": "data/rhythm_validation.sqlite3",
+    "track_quality_total": 31607,
+    "eligible_for_validated_dna_review": 26403,
+    "review_required": 9158,
+    "stable_event_identity": true,
+    "stable_note_identity": true,
+    "bar_beat_meter_context": true,
+    "exact_pattern_fingerprint_without_grid": true,
+    "phrase_candidates": 77315,
+    "multi_bar_instances": 460263,
+    "repeated_pattern_calibration_profiles": 8174,
+    "exact_repeat_reference_profiles": 7954,
+    "robust_variation_profiles": 220,
+    "rhythm_calibration_database": "data/rhythm_calibration.sqlite3",
+    "cross_file_consensus_implemented": true,
+    "context_qualified_join_implemented": true,
+    "context_qualified_join_qa": "ACCEPT",
+    "context_qualified_database": "data/rhythm_context_qualified.sqlite3",
+    "context_qualified_materialized_currently": false,
+    "required_protection_adapters": 9,
+    "consensus_materialized_currently": false,
+    "consensus_minimum_distinct_files": 3,
+    "consensus_minimum_total_bars": 9,
+    "negative_rules_registered": 12,
+    "anomaly_repair_allowed": false,
+    "pytest_warnings": 0,
+    "documents": [
+      "X10_RHYTHM_REPAIR_ARCHITECTURE_AUDIT.md",
+      "X10_RHYTHM_REPAIR_CONTRACTS.md",
+      "X10_RHYTHM_REPAIR_CERTIFICATION_GAP.md",
+      "analysis/x10_rhythm_repair_audit.json"
+    ],
+    "next_phase": "STABLE_ID_PROTECTION_ADAPTERS_AND_MULTIMODAL_GATE"
+  },
+  "corpus_recovery": "python3 app.py import-archive prism-uploads/DNA.zip",
+  "resume": [
+    "Read SESSION_CHECKPOINT.md",
+    "Run python3 -m unittest discover -s tests -q",
+    "Do not use the six songs outside Delay/Terca identification",
+    "Keep X10 Rhythm Repair in ANALYZE_ONLY until calibration and certification gates exist"
+  ]
+}

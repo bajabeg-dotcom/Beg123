@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gm-rx-optimizer"
+version = "1.0.0"
+description = "Deterministic GM to RX MIDI analysis and optimization toolkit"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+gm-rx-optimizer = "app:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.setuptools]
+py-modules = ["app"]
+[tool.setuptools.packages.find]
+include = ["rxoptimizer*"]

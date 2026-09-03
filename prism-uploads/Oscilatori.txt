@@ -1,0 +1,32 @@
+Finger Bass RX, Picked Bass RX, SlapFing Bass RX, SlapPick Bass RX.
+
+Finger Bass RX, Picked Bass RX
+1 Oscilator je Harm od 114 do 127 Switch 1 C-1 do B6
+2 Oscilator je Radni Bass od 53 do 113 Switch na 94 C-1 do B6
+3 Oscilator je Stop od 23 do 52 Switch 39 C-1 do B6
+4 Oscilator je Gliss od 1 do 22 Switch 1 C-1 do B6
+5 Oscilator je Noise od 1 do 127 Sw 1 C7 do G9
+
+Razlika izmedu 
+
+Finger Bass RX, Picked Bass RX i SlapFing Bass RX, SlapPick Bass RX
+
+Je u prva dva oscilatora 
+
+1 Oscilaotor je Slap od 114 do 127 Switch 1 low E Bass Harmo i hi E Bass4 Slap C-1 do B6
+2 Oscilator je Radni isto al 53 do 113 Switch 87 (ispravka; ranije zapisano 94) low je E.Bass3 hi E.Bass4 Slap C-1 do B6. To je SlapFing, a SlapPick samo na low ima E.Bass4 Pick. Prag 87 je podrzan bimodalnom Factory velocity raspodjelom, ali ga jos treba potvrditi direktnim PCG/Sound Edit pregledom na Pa800.
+
+Clean Guitar RX1, RX2, RX3, RX4, RX5, RX6 imaju isto 5 Oscilatora
+
+1 Oscilator je low Clean Slap hi je Clean Slide  Sw 114 vel min 94 max 127 C-1 B6
+2 Oscilator je low Radni Switch je 74  vel min 53 do 93 C-1 B6
+3 Oscilator je low Cealn Dead hi je Celean Mute Switch je 39 Vel min je 23 do 52 C-1 B6
+4 Oscilator je low Clean Harm hi je Clean Ghost sw je 1 Vel min 1 do 22 C-1 do B6
+5 Oscilator je low Clean Noise hi Clean Noise Switch je 1 od 1 do 127 C7 do G9 od C7 do A7 je fret,Slide je A#7 E8, F8 opet Harm cini mi se do G8, G#8 do C9 je opet Fret
+
+Pop  Std. Kit RX
+B1 C2 1 Oscilator 
+D2 E2 6 Oscilatora  Switch je 26,47,68,89,110 odnosno mf,p,p,mf,f,f
+F#2 4 oscilatora Switch je 68,87,106 pp,p,mp,mf,
+F2,G2,A2,B2,C3,D3 1 oscilator 
+G#2 A#2 2 oscilatora Sw68
